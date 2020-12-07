@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const printSegitiga = 5
+
+        if(typeof printSegitiga === "number"){
+            for(let i = printSegitiga; i >= 0; i--){
+                for(let j = 1; j <= i; j++){
+                    document.write(""+j+" ")
+                }
+                document.write('<br/>')
+            }
+        } else {
+            alert("Data harus Number!!!")
+        }
+    </script>
+</body>
+</html>
